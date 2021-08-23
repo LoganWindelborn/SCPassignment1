@@ -35,16 +35,8 @@ img{
     border-spacing: 10px;
 
 }
-.border-right{
-    border-right: 1.75px solid grey;
-}
 .column-top{
     position: relative;
-    top: -1000px;
+    top: -1175px;
 
-}
-.column-right{
-    position: relative;
-    left: 50%;
-    top: -1225px;
 }

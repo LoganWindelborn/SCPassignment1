@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    background-color: ghostwhite; 
+   /* border-style: solid;
+    border-width: 1px; */
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+.background{
+    background-image: url("../images/space_bg.png");
+    color: white;
+
+}
+.center{
+    text-align: center;
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: auto;
+}
+.border{
+    
+    border: 1.75px solid grey;
+    border-right: 0;
+    border-spacing: 10px;
+
+}
+.border-right{
+    border-right: 1.75px solid grey;
+}

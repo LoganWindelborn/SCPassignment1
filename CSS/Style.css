@@ -21,12 +21,6 @@ html{
 img{
     max-width: 100%;
     height: auto;
-
-}
-.background{
-    background-image: url("../images/space_bg.png");
-    color: white;
-
 }
 .center{
     text-align: center;
@@ -43,4 +37,14 @@ img{
 }
 .border-right{
     border-right: 1.75px solid grey;
+}
+.column-top{
+    position: relative;
+    top: -1000px;
+
+}
+.column-right{
+    position: relative;
+    left: 50%;
+    top: -1225px;
 }

@@ -37,6 +37,9 @@ img{
 }
 .column-top{
     position: relative;
-    top: -1175px;
+    top: -100%;
 
+}
+.col-float-right{
+    float: right;
 }

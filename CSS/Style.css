@@ -40,8 +40,11 @@ img{
     top: -110%;
 
 }
-.col-float-right{
+#col-right0{
     position: relative;
-    float: right;
-    right:0;
+    left: 3% ;
+}
+.col-right1{
+    position: relative;
+    left: 6.2475% ;
 }
